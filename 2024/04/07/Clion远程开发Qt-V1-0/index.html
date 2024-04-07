@@ -4,15 +4,54 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>Clion远程开发Qt V1.0 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="序言起因我对cpp的兴趣，正好我接触过QT，但是QT的IDE是真的难用，因为QT项目是可以支持cmake的，所以我就萌生了用clion开发qt的想法。clion是jetbrain全家桶下专门用来c&#x2F;c++项目的IDE，和他相似IDE就是总所周知的Visual Studio，不过这个visual studio稍微有点大，在大学学习的时候没少被它大小唬住，其实也不算是唬住，主要是要下什么环境">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Clion远程开发Qt V1.0">
+<meta property="og:url" content="http://example.com/2024/04/07/Clion%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91Qt-V1-0/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="序言起因我对cpp的兴趣，正好我接触过QT，但是QT的IDE是真的难用，因为QT项目是可以支持cmake的，所以我就萌生了用clion开发qt的想法。clion是jetbrain全家桶下专门用来c&#x2F;c++项目的IDE，和他相似IDE就是总所周知的Visual Studio，不过这个visual studio稍微有点大，在大学学习的时候没少被它大小唬住，其实也不算是唬住，主要是要下什么环境">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240406210737.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240406203646.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240406203827.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240406204702.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240406222003.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240406222324.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240406222748.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240406222911.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407175429.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407175604.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407180240.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407180404.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407193121.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407193825.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407194105.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407194431.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407194754.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407194939.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407195040.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407195122.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407195138.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407195301.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407195455.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407195543.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407195632.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407195729.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407200149.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407200457.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407200726.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407201300.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407201353.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407201418.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407201743.png">
+<meta property="og:image" content="http://example.com/pic/Pasted%20image%2020240407201938.png">
+<meta property="article:published_time" content="2024-04-07T13:19:25.000Z">
+<meta property="article:modified_time" content="2024-04-07T13:32:17.112Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/pic/Pasted%20image%2020240406210737.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -67,9 +106,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Clion远程开发Qt-V1-0" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-Clion远程开发Qt-V1-0" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2024/04/07/Clion%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91Qt-V1-0/" class="article-date">
   <time class="dt-published" datetime="2024-04-07T13:19:25.000Z" itemprop="datePublished">2024-04-07</time>
@@ -82,8 +119,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/04/07/Clion%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91Qt-V1-0/">Clion远程开发Qt V1.0</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      Clion远程开发Qt V1.0
     </h1>
   
 
@@ -176,117 +213,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-基于Stm32的vscode-Makefile-OpenOcd开发环境的搭建" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/04/07/%E5%9F%BA%E4%BA%8EStm32%E7%9A%84vscode-Makefile-OpenOcd%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA/" class="article-date">
-  <time class="dt-published" datetime="2024-04-07T13:17:44.000Z" itemprop="datePublished">2024-04-07</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/04/07/%E5%9F%BA%E4%BA%8EStm32%E7%9A%84vscode-Makefile-OpenOcd%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA/">基于Stm32的vscode+Makefile+OpenOcd开发环境的搭建</a>
-    </h1>
+    <a href="/2024/04/07/%E5%9F%BA%E4%BA%8EStm32%E7%9A%84vscode-Makefile-OpenOcd%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">基于Stm32的vscode+Makefile+OpenOcd开发环境的搭建</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/ben_black/article/details/109906781">VSCode搭建STM32开发环境（极简自我搭建&amp;懒人直接使用插件）_vscode开发stm32-CSDN博客</a>&#x3D;&#x3D;建议看这个&#x3D;&#x3D;<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/pyt1234567890/article/details/122522700">VsCode+OpenOCD 开发stm32系列_vscode openocd-CSDN博客</a><br><font color="red">注意在stm32cubeMX中必须使能Debug功能</font></p>
-<ol>
-<li>你电脑上需要安装<em><strong>minGW64</strong></em>，并且将其添加到环境变量</li>
-<li>你电脑上需要把<em><strong>openocd</strong></em>添加到环境变量</li>
-<li>你可能还需要安装<em><strong>arm-gcc-enuelf</strong></em><br><img src="/../pic/1.png" alt="图片"></li>
-</ol>
-<p><img src="/../pic/Pasted%20image%2020240201152846.png"></p>
-<p>c_cpp_properties.json文件内容如下，均可以从Makefile中拷贝<br><img src="/../pic/Pasted%20image%2020240201152906.png"></p>
-<p>在终端中创建tasks.json，手敲, 需要自己去理解其中的作用</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="comment">// See https://go.microsoft.com/fwlink/?LinkId=733558</span></span><br><span class="line">    <span class="comment">// for the documentation about the tasks.json format</span></span><br><span class="line">    <span class="string">&quot;version&quot;</span>: <span class="string">&quot;2.0.0&quot;</span>,</span><br><span class="line">    <span class="string">&quot;tasks&quot;</span>: [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">&quot;type&quot;</span>: <span class="string">&quot;shell&quot;</span>,</span><br><span class="line">            <span class="string">&quot;label&quot;</span>: <span class="string">&quot;Build&quot;</span>,</span><br><span class="line">            <span class="string">&quot;command&quot;</span>: <span class="string">&quot;mingw32-make&quot;</span>,</span><br><span class="line">            <span class="string">&quot;args&quot;</span>: [</span><br><span class="line">                <span class="string">&quot;-j&quot;</span></span><br><span class="line">            ],</span><br><span class="line">            <span class="string">&quot;detail&quot;</span>: <span class="string">&quot;Build with mingw32-make.exe&quot;</span>,</span><br><span class="line">            <span class="string">&quot;problemMatcher&quot;</span>: [],</span><br><span class="line">            <span class="string">&quot;group&quot;</span>: &#123;</span><br><span class="line">                <span class="string">&quot;kind&quot;</span>: <span class="string">&quot;build&quot;</span>,</span><br><span class="line">                <span class="string">&quot;isDefault&quot;</span>: <span class="literal">true</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">&quot;type&quot;</span>: <span class="string">&quot;shell&quot;</span>,</span><br><span class="line">            <span class="string">&quot;label&quot;</span>: <span class="string">&quot;OpenOCD&quot;</span>,</span><br><span class="line">            <span class="string">&quot;command&quot;</span>: <span class="string">&quot;openocd&quot;</span>,</span><br><span class="line">            <span class="string">&quot;args&quot;</span>: [</span><br><span class="line">                <span class="string">&quot;-f&quot;</span>,</span><br><span class="line">                <span class="string">&quot;interface/stlink-v2.cfg&quot;</span>,</span><br><span class="line">                <span class="string">&quot;-f&quot;</span>,</span><br><span class="line">                <span class="string">&quot;target/stm32f1x.cfg&quot;</span>,</span><br><span class="line">                <span class="string">&quot;-c&quot;</span>,</span><br><span class="line">                <span class="string">&quot;program build/123.elf verify reset exit&quot;</span></span><br><span class="line">            ],</span><br><span class="line">            <span class="string">&quot;detail&quot;</span>: <span class="string">&quot;start OpenOCD and wait for gdb&quot;</span>,</span><br><span class="line">            <span class="string">&quot;problemMatcher&quot;</span>: []</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>调试的代码方式一<font color="red">注意，需要正确配置cortex-debug的openocd的路径和交叉编译工具链的路径</font></p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">            <span class="string">&quot;cwd&quot;</span>: <span class="string">&quot;$&#123;workspaceRoot&#125;&quot;</span>,</span><br><span class="line">            <span class="string">&quot;type&quot;</span>: <span class="string">&quot;cortex-debug&quot;</span>,</span><br><span class="line">            <span class="string">&quot;request&quot;</span>: <span class="string">&quot;launch&quot;</span>,</span><br><span class="line">            <span class="string">&quot;name&quot;</span>: <span class="string">&quot;stlink&quot;</span>,</span><br><span class="line">            <span class="string">&quot;servertype&quot;</span>: <span class="string">&quot;openocd&quot;</span>,</span><br><span class="line">            <span class="string">&quot;executable&quot;</span>: <span class="string">&quot;build\\Target 1\\231454234.elf&quot;</span>,</span><br><span class="line">            <span class="string">&quot;runToEntryPoint&quot;</span>: <span class="string">&quot;main&quot;</span>,</span><br><span class="line">            <span class="string">&quot;configFiles&quot;</span>: [</span><br><span class="line">                <span class="string">&quot;E:/Program Files/openocd-20231002/OpenOCD-20231002-0.12.0/share/openocd/scripts/interface/stlink.cfg&quot;</span>,</span><br><span class="line">                <span class="string">&quot;E:/Program Files/openocd-20231002/OpenOCD-20231002-0.12.0/share/openocd/scripts/target/stm32f1x.cfg&quot;</span></span><br><span class="line">            ],</span><br><span class="line">            <span class="string">&quot;svdFile&quot;</span>: <span class="string">&quot;.pack/Keil/STM32F1xx_DFP.2.1.0/SVD/STM32F103xx.svd&quot;</span></span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
-
-<p>成功的例子</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="comment">// 使用 IntelliSense 了解相关属性。 </span></span><br><span class="line">    <span class="comment">// 悬停以查看现有属性的描述。</span></span><br><span class="line">    <span class="comment">// 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387</span></span><br><span class="line">    <span class="string">&quot;version&quot;</span>: <span class="string">&quot;0.2.0&quot;</span>,</span><br><span class="line">    <span class="string">&quot;configurations&quot;</span>: [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">&quot;name&quot;</span>: <span class="string">&quot;调试&quot;</span>,</span><br><span class="line">            <span class="string">&quot;type&quot;</span>: <span class="string">&quot;cppdbg&quot;</span>,</span><br><span class="line">            <span class="string">&quot;request&quot;</span>: <span class="string">&quot;launch&quot;</span>,</span><br><span class="line">            <span class="string">&quot;program&quot;</span>: <span class="string">&quot;$&#123;workspaceFolder&#125;/build/123.elf&quot;</span>,</span><br><span class="line">            <span class="string">&quot;args&quot;</span>: [],</span><br><span class="line">            <span class="string">&quot;stopAtEntry&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">            <span class="string">&quot;cwd&quot;</span>: <span class="string">&quot;$&#123;workspaceFolder&#125;&quot;</span>,</span><br><span class="line">            <span class="string">&quot;environment&quot;</span>: [],</span><br><span class="line">            <span class="string">&quot;externalConsole&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">            <span class="string">&quot;MIMode&quot;</span>: <span class="string">&quot;gdb&quot;</span>,</span><br><span class="line">            <span class="string">&quot;miDebuggerPath&quot;</span>: <span class="string">&quot;E:\\Program Files\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe&quot;</span>,</span><br><span class="line">            <span class="string">&quot;setupCommands&quot;</span>: [</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="string">&quot;description&quot;</span>: <span class="string">&quot;为 gdb 启用整齐打印&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;text&quot;</span>: <span class="string">&quot;-enable-pretty-printing&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;ignoreFailures&quot;</span>: <span class="literal">true</span></span><br><span class="line">                &#125;,</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="string">&quot;description&quot;</span>: <span class="string">&quot;select .elf to gdb&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;text&quot;</span>: <span class="string">&quot;file C:/Users/Administrator/Desktop/mx/123/build/123.elf&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;ignoreFailures&quot;</span>: <span class="literal">false</span></span><br><span class="line">                &#125;,</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="string">&quot;description&quot;</span>: <span class="string">&quot;将反汇编风格设置为 Intel&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;text&quot;</span>: <span class="string">&quot;-gdb-set disassembly-flavor intel&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;ignoreFailures&quot;</span>: <span class="literal">true</span></span><br><span class="line">                &#125;,</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="string">&quot;description&quot;</span>: <span class="string">&quot;connect gdb sercer&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;text&quot;</span>: <span class="string">&quot;target remote localhost:3333&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;ignoreFailures&quot;</span>: <span class="literal">false</span></span><br><span class="line">                &#125;,</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="string">&quot;description&quot;</span>: <span class="string">&quot;Reset MCU&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;text&quot;</span>: <span class="string">&quot;monitor reset&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;ignoreFailures&quot;</span>: <span class="literal">false</span></span><br><span class="line">                &#125;,</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="string">&quot;description&quot;</span>: <span class="string">&quot;Halt&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;text&quot;</span>: <span class="string">&quot;monitor halt&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;ignoreFailures&quot;</span>: <span class="literal">false</span></span><br><span class="line">                &#125;,</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="string">&quot;description&quot;</span>: <span class="string">&quot;Burn&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;text&quot;</span>: <span class="string">&quot;load&quot;</span>,</span><br><span class="line">                    <span class="string">&quot;ignoreFailures&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">                &#125;,</span><br><span class="line">            ],</span><br><span class="line">            <span class="string">&quot;preLaunchTask&quot;</span>: <span class="string">&quot;Build&quot;</span></span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">&quot;name&quot;</span>: <span class="string">&quot;Cortex Debug&quot;</span>,</span><br><span class="line">            <span class="string">&quot;cwd&quot;</span>: <span class="string">&quot;$&#123;workspaceFolder&#125;&quot;</span>,</span><br><span class="line">            <span class="string">&quot;executable&quot;</span>: <span class="string">&quot;./bin/executable.elf&quot;</span>,</span><br><span class="line">            <span class="string">&quot;request&quot;</span>: <span class="string">&quot;launch&quot;</span>,</span><br><span class="line">            <span class="string">&quot;type&quot;</span>: <span class="string">&quot;cortex-debug&quot;</span>,</span><br><span class="line">            <span class="string">&quot;runToEntryPoint&quot;</span>: <span class="string">&quot;main&quot;</span>,</span><br><span class="line">            <span class="string">&quot;servertype&quot;</span>: <span class="string">&quot;jlink&quot;</span></span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/04/07/%E5%9F%BA%E4%BA%8EStm32%E7%9A%84vscode-Makefile-OpenOcd%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA/" data-id="clupkd2zh00015oko2cec6sdn" data-title="基于Stm32的vscode+Makefile+OpenOcd开发环境的搭建" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/04/07/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2024-04-07T13:00:11.743Z" itemprop="datePublished">2024-04-07</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/04/07/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/04/07/hello-world/" data-id="clupkd2zi00025oko7fea7ee7" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
 </section>
